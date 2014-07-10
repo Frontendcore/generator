@@ -1,0 +1,22 @@
+{
+    "name": "<%= projectName %>",
+    "version": "<%= versionName %>",
+    "authors": [
+        "<%= userName %> <<%= userMail %>>"
+    ],
+    "main": "Gruntfile.js",
+    "moduleType": [
+        "amd"
+    ],
+    "homepage": "<%= webUrl %>",
+    "private": true,
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "tests"
+    ],
+    "dependencies": {
+        "frontendcore-scss": "https://github.com/tonipinel/frontendcore-scss.git",
+        "frontendcore-js": "https://github.com/tonipinel/frontendcore-js.git#~1.0.0"
+    }
+}
