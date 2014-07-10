@@ -1,0 +1,57 @@
+.filters {
+	& {
+		background: $color-primary;
+		margin: 0 0 $spacing ;
+		padding: $spacing/2 $spacing 1px !important;
+		overflow: visible;
+		min-height: 41px;
+	}
+	%select {
+		width: 100%;
+		@include box-sizing(border-box);
+		margin-right: $spacing/2;
+		margin-bottom:$spacing/2;
+		background: $color-text-background;
+		color: $color-text;
+		padding: $spacing/3 $spacing/2;
+		border:1px solid $color-text-light;
+	}
+	select {
+		@extend %select;
+	}
+	.selected {
+		& {
+			@extend %select;
+			display: block;
+			background: $color-secondary;
+			color: $color-text-background;
+			width: 100%;
+			margin-bottom: $spacing/2;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		&:hover {
+			text-decoration: none;
+			background: $color-secondary-light;
+		}
+	}
+	ul {
+		& {
+			@extend %select;
+			overflow: hidden;
+			height: $spacing*2;
+			margin-bottom: $spacing/2;
+		}
+		&:hover {
+			overflow: visible;
+			height: inherit;
+		}
+		.label {
+			display: block;
+			color: $color-text;
+			height: 26px;
+		}
+	}
+	ul, li { display: block; }
+}

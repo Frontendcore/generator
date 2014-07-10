@@ -1,0 +1,25 @@
+// THE CONFIG OF YOUR PROJECT
+@import '_config/__config-index.scss';
+
+// FRONTEND CORE BASE & SKIN
+@import '../components/frontendcore-scss/_default.scss';
+
+// CUSTOM TOOLS INDEX
+@import 'tools/functions/__index-functions.scss';
+
+// CUSTOM MIXINS INDEX
+@import 'tools/mixins/__index-mixins.scss';
+
+// Bombs index
+@import 'bombs/__index-bombs.scss';
+
+@import "libs/__libs-index.scss";
+
+// bricks index
+@import 'bricks/__index-bricks.scss';
+
+// builds index
+@import 'builds/__index-builds.scss';
+
+// MEDIA QUERIES FOR DEVICES
+@import 'devices/__index-devices.scss';
