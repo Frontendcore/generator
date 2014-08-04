@@ -2,9 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a8fa2b-9076-4c59-acf2-1994645f32bc" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator-frontendcore/package.json" afterPath="$PROJECT_DIR$/generator-frontendcore/package.json" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\test\test-creation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\test\test-load.js" afterPath="" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\index.js" afterPath="$PROJECT_DIR$/app/index.js" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_.bowerrc" afterPath="$PROJECT_DIR$/app/templates/_.bowerrc" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_Gruntfile.js" afterPath="$PROJECT_DIR$/app/templates/_Gruntfile.js" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_bower.json" afterPath="$PROJECT_DIR$/app/templates/_bower.json" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_package.json" afterPath="$PROJECT_DIR$/app/templates/_package.json" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_colors.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_colors.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_fonts.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_fonts.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_objects.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_objects.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_ui.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_ui.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\config.rb" afterPath="$PROJECT_DIR$/app/templates/static/css/config.rb" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\__index-devices.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/__index-devices.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\_desktop.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/_desktop.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\_mobile.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/_mobile.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\_tablet.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/_tablet.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\classes\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/classes/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\functions\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/functions/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\mixins\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/mixins/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\placeholders\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/placeholders/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\ie-new.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/ie-new.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\ie-old.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/ie-old.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\main.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/main.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\objects\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/objects/__index.scss" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/app/templates/static/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\js\modules\example.js" afterPath="$PROJECT_DIR$/app/templates/static/js/modules/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontendcore-generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +65,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="_package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/_package.json">
+        <entry file="file://$PROJECT_DIR$/app/templates/_package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
               <folding />
@@ -36,17 +73,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/generator-frontendcore/package.json">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.09751434" vertical-offset="153" max-vertical-offset="714">
+            <state line="16" column="19" selection-start="379" selection-end="379" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.09289618" vertical-offset="0" max-vertical-offset="549">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/_Gruntfile.js">
+        <entry file="file://$PROJECT_DIR$/app/templates/_Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
               <folding>
@@ -79,6 +125,7 @@
         <option value="$PROJECT_DIR$/generator-frontendcore/app/templates/_package.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/generator-frontendcore/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -133,10 +180,6 @@
               <option name="myItemId" value="frontendcore-generator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-frontendcore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -145,6 +188,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\frontendcore-generator" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -173,10 +221,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -213,63 +261,63 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/objects/__index.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/objects/__index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.020166073" vertical-offset="0" max-vertical-offset="843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/helpers/placeholders/__index.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/helpers/placeholders/__index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="869">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/helpers/__index.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/helpers/__index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="869">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/_config/_ui.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/_config/_ui.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.06049822" vertical-offset="0" max-vertical-offset="843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/_config/_objects.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/_config/_objects.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/_config/_fonts.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/_config/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="15" selection-start="441" selection-end="441" vertical-scroll-proportion="0.46381968" vertical-offset="0" max-vertical-offset="843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/_config/_colors.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/_config/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="25" selection-start="410" selection-end="410" vertical-scroll-proportion="0.36298934" vertical-offset="0" max-vertical-offset="843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/static/css/_config/__index.scss">
+    <entry file="file://$PROJECT_DIR$/app/templates/static/css/_config/__index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.16132858" vertical-offset="0" max-vertical-offset="843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/_Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/_Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
           <folding>
@@ -278,16 +326,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/app/templates/_package.json">
+    <entry file="file://$PROJECT_DIR$/app/templates/_package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator-frontendcore/package.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.09751434" vertical-offset="153" max-vertical-offset="714">
+        <state line="16" column="19" selection-start="379" selection-end="379" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.09289618" vertical-offset="0" max-vertical-offset="549">
           <folding />
         </state>
       </provider>
