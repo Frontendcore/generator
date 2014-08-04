@@ -1,17 +1,11 @@
 // colors config
-@import 'colors';
-
-// colors config
-@import 'colors-computed';
+@import '_colors.scss';
 
 // fonts config
-@import 'fonts';
+@import '_fonts.scss';
 
 // measures config
-@import 'measures';
-
-// browsers config
-@import 'browsers';
+@import '_objects.scss';
 
 // User interface
-@import 'ui';
+@import '_ui.scss';

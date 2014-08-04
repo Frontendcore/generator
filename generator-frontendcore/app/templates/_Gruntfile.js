@@ -9,6 +9,21 @@ module.exports = function (grunt) {
 				}
 			}
 		},
+        sassdoc: {
+            dist: {
+                src: 'static/css/',
+                dest: 'sassdoc/',
+                options: {
+                    verbose: false,
+                    display: {
+                        access: ['public'],
+                        alias: false,
+                        watermark: true
+                    },
+                    package: './package.json'
+                }
+            }
+        },
 		uglify: {
 			options: {
 				beautify: false
@@ -28,6 +43,24 @@ module.exports = function (grunt) {
 			dist: ['Gruntfile.js', 'static/js/modules/**/*.js']
 
 		},
+        jasmine: {
+            main:{
+                src: [
+                    'static/js/modules/*.js'
+                ],
+                options: {
+                    specs: 'static/js/test/*.js',
+                    vendor :  [
+                        'js/base/_oGlobalSettings.js',
+                        'static/components/frontendcore-js/core.js',
+                        'static/components/frontendcore-js/devices/desktop.js',
+                        'static/components/frontendcore-js/ui/*.js'
+                    ],
+                    outfile: 'js-specrunner.html',
+                    keepRunner: false
+                }
+            }
+        },
 		watch: {
 			scripts: {
 				files: ['static/js/**/*.js', 'Gruntfile.js'],
@@ -45,11 +78,12 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-jasmine');
+    grunt.loadNpmTasks('grunt-sassdoc');
+	grunt.registerTask('javascript', ['uglify:core', 'jshint','jasmine']);
+	grunt.registerTask('scss', ['compass','sassdoc']);
 
-	grunt.registerTask('javascript', ['uglify:core', 'jshint']);
-	grunt.registerTask('scss', ['compass']);
-
-	grunt.registerTask('default', ['compass', 'uglify', 'jshint']);
+	grunt.registerTask('default', ['compass','sassdoc','uglify', 'jshint','jasmine']);
 
 	grunt.event.on('watch', function (action, filepath) {
 		grunt.config(['default'], filepath);
