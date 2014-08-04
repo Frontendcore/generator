@@ -2,45 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a8fa2b-9076-4c59-acf2-1994645f32bc" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\test\test-creation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\test\test-load.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_.bowerrc" afterPath="$PROJECT_DIR$/app/templates/_.bowerrc" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_Gruntfile.js" afterPath="$PROJECT_DIR$/app/templates/_Gruntfile.js" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_bower.json" afterPath="$PROJECT_DIR$/app/templates/_bower.json" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\_package.json" afterPath="$PROJECT_DIR$/app/templates/_package.json" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_colors.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_colors.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_fonts.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_fonts.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_objects.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_objects.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\_config\_ui.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/_config/_ui.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\config.rb" afterPath="$PROJECT_DIR$/app/templates/static/css/config.rb" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\__index-devices.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/__index-devices.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\_desktop.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/_desktop.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\_mobile.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/_mobile.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\devices\_tablet.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/devices/_tablet.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\classes\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/classes/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\functions\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/functions/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\mixins\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/mixins/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\helpers\placeholders\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/helpers/placeholders/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\ie-new.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/ie-new.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\ie-old.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/ie-old.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\main.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/main.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\css\objects\__index.scss" afterPath="$PROJECT_DIR$/app/templates/static/css/objects/__index.scss" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/app/templates/static/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/templates/static/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="C:\code\frontendcore-generator\generator-frontendcore\app\templates\static\js\modules\example.js" afterPath="$PROJECT_DIR$/app/templates/static/js/modules/example.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontendcore-generator.iws" />
@@ -188,6 +149,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -221,7 +183,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
