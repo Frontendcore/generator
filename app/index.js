@@ -66,12 +66,13 @@ var FrontendcoreGenerator = yeoman.generators.Base.extend({
     app: function () {
         this.directory('css','css');
         this.directory('fonts','fonts');
+        this.directory('test','test');
         this.directory('js','js');
         this.template('_package.json', 'package.json');
         this.template('_bower.json', 'bower.json');
         this.template('_gruntfile.js', 'gruntfile.js');
         this.template('_.bowerrc', '.bowerrc');
-        this.template('index.html', '.index.html');
+        this.template('index.html', 'index.html');
     },
 
     projectfiles: function () {
