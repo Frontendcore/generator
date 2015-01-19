@@ -37,7 +37,7 @@
 	<script type="text/javascript">
 		var oGlobalSettings = {
 			sPathJs : 'js/',
-			sPathJsCore: 'components/frontendcore-js/',
+			sPathJsCore: '../../components/frontendcore-js/',
 			sPathJsModules : 'js/modules/',
 			sPathJsLibs : 'js/libs/',
 			sPathRoot: './',
@@ -48,22 +48,31 @@
 	</script>
 
 	<!-- includes the core js with the minimum scripts, from here is all async and depending on the DOM boot -->
-	<script src="js/core.js"></script>
+	<script src="components/frontendcore-js/core.js"></script>
 </head>
 <!-- activate the polyfills to get support for old browers -->
 <body data-tc-modules="polyfills">
-	<div class="grid">
-		<div class="col-1-2">
-			<div class="box-background">
-				<h1>Everything is fine!</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-		</div>
-		<div class="col-1-2">
-			<div class="box-background">
-				<h1>Life is good!</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+<div class="grid pa-l">
+	<div class="col-1-2">
+		<div class="box-primary">
+			<h1>If I'm a color box...</h1>
+			<h2>...css is loaded!</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
+	<div class="col-1-2">
+		<div class="box-background">
+			<section class="carousel" data-tc-modules="carousel">
+				<article class="box mb-n">
+					<h1>If this is a Carousel...</h1>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</article>
+				<article class="box mb-n">
+					<h1>...Javascript is working fine.</h1>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</article>
+			</section>
+		</div>
+	</div>
+</div>
 </body>

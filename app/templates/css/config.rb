@@ -1,5 +1,5 @@
 enviroment = :production
-css_dir = "build/static"
+css_dir = "/"
 sass_dir = "/"
 
 output_style = :compressed

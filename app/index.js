@@ -71,6 +71,7 @@ var FrontendcoreGenerator = yeoman.generators.Base.extend({
         this.template('_bower.json', 'bower.json');
         this.template('_gruntfile.js', 'gruntfile.js');
         this.template('_.bowerrc', '.bowerrc');
+        this.template('index.html', '.index.html');
     },
 
     projectfiles: function () {
