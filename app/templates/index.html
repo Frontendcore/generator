@@ -1,0 +1,69 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<title>FrontendCore: The all in one frontend framework.</title>
+
+	<!-- Important for responsive sites -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Includes the main css -->
+	<link rel="stylesheet" type="text/css"  href="css/main.css" media="all">
+
+	<!-- Css and JS for IE8 or below including a little script that notifies about old browser -->
+	<!--[if lte IE 8]>
+	<script src="js/ie-old.js"></script>
+	<link rel="stylesheet" type="text/css"  href="css/ie-old.css" media="all">
+	<script type="text/javascript">
+		var $buoop = {reminder: 0};
+		$buoop.ol = window.onload;
+		window.onload=function(){
+			try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+			var e = document.createElement("script");
+			e.setAttribute("type", "text/javascript");
+			e.setAttribute("src", "//browser-update.org/update.js");
+			document.body.appendChild(e);
+		}
+	</script>
+	<![endif]-->
+
+	<!-- Css fixes to IE9 and superior -->
+	<!--[if gte IE 9]>
+	<link rel="stylesheet" type="text/css"  href="css/ie-new.css" media="all">
+	<![endif]-->
+
+	<!-- Set the global variables to the Frontendcore-JS  -->
+	<script type="text/javascript">
+		var oGlobalSettings = {
+			sPathJs : 'js/',
+			sPathJsCore: 'components/frontendcore-js/',
+			sPathJsModules : 'js/modules/',
+			sPathJsLibs : 'js/libs/',
+			sPathRoot: './',
+			sPathCss: 'css/',
+			bCss : false,
+			bResponsiveImages: true
+		}
+	</script>
+
+	<!-- includes the core js with the minimum scripts, from here is all async and depending on the DOM boot -->
+	<script src="js/core.js"></script>
+</head>
+<!-- activate the polyfills to get support for old browers -->
+<body data-tc-modules="polyfills">
+	<div class="grid">
+		<div class="col-1-2">
+			<div class="box-background">
+				<h1>Everything is fine!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="col-1-2">
+			<div class="box-background">
+				<h1>Life is good!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+</body>

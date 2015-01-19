@@ -5,25 +5,10 @@ module.exports = function (grunt) {
 		compass: {
 			dist: {
 				options: {
-					config: 'static/css/config.rb'
+					config: 'css/config.rb'
 				}
 			}
 		},
-        sassdoc: {
-            dist: {
-                src: 'static/css/',
-                dest: 'sassdoc/',
-                options: {
-                    verbose: false,
-                    display: {
-                        access: ['public'],
-                        alias: false,
-                        watermark: true
-                    },
-                    package: './package.json'
-                }
-            }
-        },
 		uglify: {
 			options: {
 				beautify: false
@@ -40,21 +25,21 @@ module.exports = function (grunt) {
 					console: true
 				}
 			},
-			dist: ['Gruntfile.js', 'static/js/modules/**/*.js']
+			dist: ['Gruntfile.js', 'js/modules/**/*.js']
 
 		},
         jasmine: {
             main:{
                 src: [
-                    'static/js/modules/*.js'
+                    'js/modules/*.js'
                 ],
                 options: {
-                    specs: 'static/js/test/*.js',
+                    specs: 'js/test/*.js',
                     vendor :  [
                         'js/base/_oGlobalSettings.js',
-                        'static/components/frontendcore-js/core.js',
-                        'static/components/frontendcore-js/devices/desktop.js',
-                        'static/components/frontendcore-js/ui/*.js'
+                        'components/frontendcore-js/core.js',
+                        'components/frontendcore-js/devices/desktop.js',
+                        'components/frontendcore-js/ui/*.js'
                     ],
                     outfile: 'js-specrunner.html',
                     keepRunner: false
@@ -63,11 +48,11 @@ module.exports = function (grunt) {
         },
 		watch: {
 			scripts: {
-				files: ['static/js/**/*.js', 'Gruntfile.js'],
+				files: ['js/**/*.js', 'Gruntfile.js'],
 				tasks: ['javascript']
 			},
 			scss: {
-				files: ['static/css/**/*.scss'],
+				files: ['css/**/*.scss'],
 				tasks: ['scss']
 			}
 		}
@@ -81,9 +66,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-sassdoc');
 	grunt.registerTask('javascript', ['uglify:core', 'jshint','jasmine']);
-	grunt.registerTask('scss', ['compass','sassdoc']);
+	grunt.registerTask('scss', ['compass']);
 
-	grunt.registerTask('default', ['compass','sassdoc','uglify', 'jshint','jasmine']);
+	grunt.registerTask('default', ['compass','uglify', 'jshint','jasmine']);
 
 	grunt.event.on('watch', function (action, filepath) {
 		grunt.config(['default'], filepath);

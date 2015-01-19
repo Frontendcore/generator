@@ -1,4 +1,4 @@
-TinyCore.AMD.define('example', ['dependencies.js' ], function () {
+TinyCore.AMD.define('example', ['devicePackage' ], function () {
     return {
         onStart: function () {
 
