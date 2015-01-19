@@ -1,6 +1,6 @@
 {
   "name": "generator-frontendcore",
-  "version": "1.0",
+  "version": "0.3",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
