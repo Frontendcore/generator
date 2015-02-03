@@ -26,7 +26,6 @@ module.exports = function (grunt) {
 				}
 			},
 			dist: ['Gruntfile.js', 'js/modules/**/*.js']
-
 		},
 		jasmine: {
 			main:{
