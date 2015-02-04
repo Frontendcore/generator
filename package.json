@@ -1,12 +1,12 @@
 {
   "name": "generator-frontendcore",
   "version": "1.4.2",
-  "description": "Yeoman generator",
+  "description": "Yeoman generator to install frontendcore",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "tonipinel/frontendcore",
   "author": {
-    "name": "Toni",
+    "name": "Toni Pinel",
     "email": "tonipinel@gmail.com",
     "url": "https://github.com/tonipinel"
   },

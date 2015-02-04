@@ -1,5 +1,3 @@
-@import "http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300";
-
 $font-line-height-custom: (
 		base: 1.5em,
 		title: 1.2em
@@ -8,12 +6,11 @@ $font-line-height-custom: (
 $font-faces-custom: (
 		default: 'Tahoma, Arial, Verdana, sans-serif',
 		title: "'Open Sans Condensed','Arial Narrow', Tahoma, sans-serif",
+		title-weight: bold,
 		icons: true
 ) !global !default;
 
-
-$font-sizes-custom
-: (
+$font-sizes-custom: (
 		base: 14px,
 		xxxl: 2.2rem,
 		xxl: 1.7rem,
