@@ -2,11 +2,20 @@
 module.exports = function (grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		compass: {
-			dist: {
-				options: {
-					config: 'css/config.rb'
-				}
+		sass: {
+			app: {
+				files: [{
+					expand: true,
+					cwd: '/',
+					src: ['*.scss'],
+					dest: '/',
+					ext: '.css'
+				}]
+			},
+			options: {
+				sourceMap: true,
+				outputStyle: 'compressed',
+				imagePath: "/"
 			}
 		},
 		uglify: {
@@ -27,24 +36,6 @@ module.exports = function (grunt) {
 			},
 			dist: ['Gruntfile.js', 'js/modules/**/*.js']
 		},
-		jasmine: {
-			main:{
-				src: [
-					'js/modules/*.js'
-				],
-				options: {
-					specs: 'js/test/*.test.js',
-					vendor :  [
-						'components/frontendcore-js/_oGlobalSettings.js',
-						'components/frontendcore-js/core.js',
-						'components/frontendcore-js/devices/desktop.js',
-						'components/frontendcore-js/ui/*.js'
-					],
-					outfile: 'js-specrunner.html',
-					keepRunner: false
-				}
-			}
-		},
 		watch: {
 			scripts: {
 				files: ['js/**/*.js', 'Gruntfile.js'],
@@ -60,13 +51,13 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-compass');
+	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jasmine');
-	grunt.registerTask('javascript', ['uglify:core', 'jshint','jasmine']);
-	grunt.registerTask('scss', ['compass']);
+	grunt.registerTask('javascript', ['uglify:core', 'jshint']);
+	grunt.registerTask('scss', ['sass']);
 
-	grunt.registerTask('default', ['compass','uglify', 'jshint','jasmine']);
+	grunt.registerTask('default', ['sass','uglify', 'jshint']);
 
 	grunt.event.on('watch', function (action, filepath) {
 		grunt.config(['default'], filepath);
