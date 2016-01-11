@@ -1,6 +1,6 @@
 {
   "name": "generator-frontendcore",
-  "version": "1.7.22",
+  "version": "1.7.23",
   "description": "Yeoman generator to install frontendcore",
   "license": "MIT",
   "main": "app/index.js",
